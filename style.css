@@ -1,0 +1,74 @@
+body{
+    background-color: #404040;
+    font-family: Verdana;
+    color:black;
+}
+#calosc{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#logo{
+    margin-top: 20px;
+    font-size: large;
+    color: white;
+}
+#menu{
+    background-color: #303030;
+    color: white;
+}
+#topbar{
+
+}
+#sidebar{
+    float: left;
+    padding: 10px;
+    background-color: lightgray;
+    min-height: 620px;
+    text-align: center;
+    font-size: 18px;
+    border-right: solid #404040;
+}
+#content{
+    float: left;
+    padding: 30px;
+    background-color: lightgray;
+    width: 590px;
+    min-height: 580px;
+}
+#reklama{
+    float: left;
+    padding: 10px;
+    background-color: lightgray;
+    min-height: 620px;
+    width: 140px;
+    text-align: center;
+    font-size: 18px;
+    border-left: solid #404040
+}
+#footer{
+
+}
+.option{
+    float: left;
+    min-width: 50px;
+    height: 25px;
+    font-size: 18px;
+    padding: 10px;
+    border-right: 2px solid #404040;
+}
+.option:hover{
+    background-color: #000;
+    cursor: pointer;
+}
+.optionL{
+    font-size: 18px;
+    height: 25px;
+    padding: 10px;
+    border-bottom: 2px solid #404040;
+}
+.optionL:hover{
+    background-color: lightcoral;
+    cursor: pointer;
+    color: white;
+}
